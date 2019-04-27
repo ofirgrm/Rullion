@@ -70,6 +70,6 @@ public class ScheduleDirectorScheduleTest {
                 .addDependency("d", "e");
 
         this.director.execute();
-        System.out.println(this.director.getResult());
     }
+
 }
