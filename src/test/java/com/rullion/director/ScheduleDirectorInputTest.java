@@ -9,6 +9,11 @@ import org.junit.Test;
 
 import java.util.List;
 
+/**
+ * Director input tests
+ *
+ * @author Ofir Germansky
+ */
 public class ScheduleDirectorInputTest {
 
     private ScheduleDirector director;

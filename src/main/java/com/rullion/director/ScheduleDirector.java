@@ -2,6 +2,11 @@ package com.rullion.director;
 
 import java.util.*;
 
+/**
+ * The director is a command interface to read the task and schedule them
+ *
+ * @author Ofir Germansky
+ */
 public abstract class ScheduleDirector {
 
     protected List<String> tasks;

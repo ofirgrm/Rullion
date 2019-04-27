@@ -4,6 +4,11 @@ import com.rullion.exception.SchedulingTaskInputException;
 
 import java.util.*;
 
+/**
+ * Build a list of tasks. Implemented as a non-thread-safe singleton
+ *
+ * @author Ofir Germansky
+ */
 public class TasksBuilder {
 
     private static TasksBuilder builder = null;

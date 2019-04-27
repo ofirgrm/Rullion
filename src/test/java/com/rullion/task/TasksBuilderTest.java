@@ -6,6 +6,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * Builder tests
+ *
+ * @author Ofir Germansky
+ */
 public class TasksBuilderTest {
 
     private TasksBuilder tasksBuilder;

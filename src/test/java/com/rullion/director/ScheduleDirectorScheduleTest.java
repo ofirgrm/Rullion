@@ -11,6 +11,11 @@ import java.util.List;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
+/**
+ * Director schedule tests
+ *
+ * @author Ofir Germansky
+ */
 public class ScheduleDirectorScheduleTest {
 
     private ScheduleDirector director;

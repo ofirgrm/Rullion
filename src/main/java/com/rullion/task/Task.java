@@ -3,6 +3,12 @@ package com.rullion.task;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * A task entity implemented as a tree node using a double linked references.
+ * Resolved flag is used to indicate that the task has being flagged as scheduled.
+ *
+ * @author Ofir Germansky
+ */
 public class Task {
 
     private String name;
@@ -32,16 +38,8 @@ public class Task {
         return name;
     }
 
-    public List<Task> getDependants() {
-        return dependants;
-    }
-
     public List<Task> getDependencies() {
         return dependencies;
-    }
-
-    public boolean hasDependencies() {
-        return !dependencies.isEmpty();
     }
 
     public boolean isResolved() {

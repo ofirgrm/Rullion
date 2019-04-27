@@ -14,6 +14,11 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
+/**
+ * Acceptance criteria tests
+ *
+ * @author Ofir Germansky
+ */
 public class TaskSchedulingAcceptanceTest {
 
     private ScheduleDirector director;

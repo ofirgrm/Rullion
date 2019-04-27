@@ -10,8 +10,15 @@ import java.util.Set;
 
 import static java.util.function.Predicate.not;
 
+/**
+ * Implementing the command interface.
+ * Use a builder to prepare the tasks input and a recursion tree to prepare the results
+ *
+ * @author Ofir Germansky
+ */
 public class ScheduleDirectorImpl extends ScheduleDirector {
 
+    // initiating the number of possible tasks to 50 as per assumption
     private static final int TASK_SIZE = 50;
 
     private List<Task> taskList;
