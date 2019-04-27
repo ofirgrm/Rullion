@@ -12,6 +12,7 @@ Using the command line you may run dynamic tests on the code
 You may run the command line using maven as following (required Maven + JDK12):
 
     set JAVA_HOME=C:\Program Files\Java\jdk-12
+    mvn install
     mvn exec:java -Dexec.mainClass=com.rullion.Main
 
 Run example:
